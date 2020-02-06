@@ -76,6 +76,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ld.config.txt:system/etc/swcodec/ld.config.txt
 
+PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
