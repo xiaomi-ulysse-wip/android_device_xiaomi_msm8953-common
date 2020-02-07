@@ -507,4 +507,7 @@
 	<!-- Whether the device show_vendor_mismatch_message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
 
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
 </resources>
