@@ -39,6 +39,10 @@ persist.vendor.audio.fluence.voicecall=true \
 persist.vendor.audio.fluence.voicerec=false \
 ro.vendor.audio.sdk.fluencetype=fluence
 
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.audio.dolby.ds2.enabled=true \
+vendor.audio.dolby.ds2.hardbypass=false
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
