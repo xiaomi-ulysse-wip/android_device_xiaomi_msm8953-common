@@ -5,3 +5,6 @@ camera.dual.mode           u:object_r:camera_prop:s0
 persist.camera.            u:object_r:camera_prop:s0
 
 ctl.imsrcsd					u:object_r:ctl_vendor_imsrcsservice_prop:s0
+
+# Dolby
+persist.vendor.dolby.loglevel      u:object_r:vendor_dolby_loglevel_prop:s0
