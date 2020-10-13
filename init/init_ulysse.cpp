@@ -70,14 +70,16 @@ void property_override_dual(char const system_prop[], char const vendor_prop[], 
 
 void set_device_ugglite()
 {
-    property_override_dual("ro.product.device", "ro.product.vendor.device", "ugglite");
-    property_override_dual("ro.product.model", "ro.product.vendor.model", "Redmi Note 5A Lite");
+    property_override_dual("ro.product.device", "ro.product.vendor.device", "ugg");
+    property_override_dual("ro.product.model", "ro.product.vendor.model", "Redmi Note 5A Prime");
+    property_set("ro.realname","ugglite");
 }
 
 void set_device_ugg()
 {
     property_override_dual("ro.product.device", "ro.product.vendor.device", "ugg");
     property_override_dual("ro.product.model", "ro.product.vendor.model", "Redmi Note 5A Prime");
+    property_set("ro.realname","ugg");
 }
 
 void check_device()
